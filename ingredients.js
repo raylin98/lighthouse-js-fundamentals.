@@ -17,10 +17,6 @@ console.log("ingredients list");
     console.log(ingredients[i]);
     i++;
   }
-
-console.log("ingredients list");
-  let i = 0;
-  while (i > ingredients.length){
-    console.log(ingredients[i]);
-    i--;
-  }
+ingredients.reverse()
+console.log(ingredients);
+  
